@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B19"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <radialGradient id="goldNode">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="60%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </radialGradient>
+    <radialGradient id="royalNode">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="60%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#bg3)"/>
+  <g stroke="#60A5FA" stroke-width="1.8" opacity="0.4">
+    <line x1="180" y1="140" x2="380" y2="100"/>
+    <line x1="180" y1="140" x2="380" y2="240"/>
+    <line x1="180" y1="140" x2="380" y2="380"/>
+    <line x1="180" y1="340" x2="380" y2="100"/>
+    <line x1="180" y1="340" x2="380" y2="240"/>
+    <line x1="180" y1="340" x2="380" y2="380"/>
+    <line x1="380" y1="100" x2="610" y2="170"/>
+    <line x1="380" y1="100" x2="610" y2="310"/>
+    <line x1="380" y1="240" x2="610" y2="170"/>
+    <line x1="380" y1="240" x2="610" y2="310"/>
+    <line x1="380" y1="380" x2="610" y2="170"/>
+    <line x1="380" y1="380" x2="610" y2="310"/>
+  </g>
+  <circle cx="180" cy="140" r="18" fill="url(#royalNode)"/>
+  <circle cx="180" cy="340" r="18" fill="url(#royalNode)"/>
+  <circle cx="380" cy="100" r="20" fill="url(#goldNode)"/>
+  <circle cx="380" cy="240" r="26" fill="url(#goldNode)"/>
+  <circle cx="380" cy="240" r="38" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="380" cy="380" r="20" fill="url(#goldNode)"/>
+  <circle cx="610" cy="170" r="22" fill="url(#royalNode)"/>
+  <circle cx="610" cy="310" r="22" fill="url(#royalNode)"/>
+</svg>
